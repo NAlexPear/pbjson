@@ -11,8 +11,8 @@ repository = "https://github.com/influxdata/pbjson"
 
 [dependencies]
 heck = "0.4"
-prost = "0.11"
-prost-types = "0.11"
+prost = {version = "0.11", git = "https://github.com/NAlexPear/prost.git", branch = "extensions" }
+prost-types = {version = "0.11", git = "https://github.com/NAlexPear/prost.git", branch = "extensions" }
 itertools = "0.10"
 
 [dev-dependencies]
